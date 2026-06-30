@@ -223,3 +223,14 @@ img {
     margin-top: 10px;
   }
 }
+.custom-link {
+  text-decoration: none;
+  color: #0066cc; 
+  font-size: 1.1rem;
+}
+.custom-link::after {
+  content: " \003E"; 
+  padding-left: 5px;
+  font-weight: normal;
+  display: inline-block;
+}
